@@ -1,0 +1,55 @@
+name: Bug report
+description: Something in Loop Noise doesn't work as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting! These details help to reproduce the problem quickly.
+  - type: input
+    id: blender
+    attributes:
+      label: Blender version
+      description: Shown in Help ▸ About Blender.
+      placeholder: e.g. 5.2.2 LTS
+    validations:
+      required: true
+  - type: input
+    id: addon
+    attributes:
+      label: Loop Noise version
+      description: Shown in Edit ▸ Preferences ▸ Add-ons ▸ Loop Noise.
+      placeholder: e.g. 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: e.g. Windows 11, macOS 15, Ubuntu 24.04
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Right-click the default cube's Location ▸ Add Loop Noise
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: errors
+    attributes:
+      label: Error messages
+      description: Anything shown in Blender's status bar, the Info editor or the system console (on Windows, Window ▸ Toggle System Console).
+      render: text
+  - type: textarea
+    id: files
+    attributes:
+      label: Screenshots or a .blend file
+      description: Drag files here. A small .blend that shows the problem helps most; zip it first, as GitHub doesn't accept .blend files directly.
