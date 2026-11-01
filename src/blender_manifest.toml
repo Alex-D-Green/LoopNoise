@@ -1,0 +1,21 @@
+schema_version = "1.0.0"
+
+id = "loop_noise"
+version = "1.0.0"
+name = "Loop Noise"
+tagline = "Noise for F-Curves that loops seamlessly over a frame range"
+maintainer = "Alex D Green"
+type = "add-on"
+
+website = "https://github.com/Alex-D-Green/LoopNoise"
+
+tags = ["Animation"]
+
+blender_version_min = "4.5.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+copyright = [
+  "2026 Alex D Green",
+]

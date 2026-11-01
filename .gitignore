@@ -1,0 +1,12 @@
+# Local working files
+blender_looping_noise_chat.md
+.claude/
+docs/tools/
+docs/blendkit/
+
+# Build output
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
