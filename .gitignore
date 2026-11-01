@@ -3,6 +3,7 @@ blender_looping_noise_chat.md
 .claude/
 docs/tools/
 docs/blendkit/
+docs/github/
 
 # Build output
 dist/
