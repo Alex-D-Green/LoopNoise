@@ -3,9 +3,9 @@
 **Noise for animation curves that loops seamlessly — for Blender 4.5 LTS and newer.**
 
 Blender's Noise modifier is great for idle motion, breathing, camera shake and flicker, but it never repeats:
-when your animation loops, the noise jumps at the seam. Loop Noise is a Blender add-on that gives you the same
-noise, with the same settings, inside a frame range you choose — and the last frame flows into the first with no
-jump in position or speed.
+when your animation loops, the noise jumps at the seam. Loop Noise is a Blender add-on that makes the same noise
+cyclic: with the same settings, it repeats over a frame range you choose — and the last frame flows into the first
+with no jump in position or speed.
 
 <img src="docs/images/scene.webp" width="415" alt="Most of the motion in this scene was done with Loop Noise, looping seamlessly">
 
