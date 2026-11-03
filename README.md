@@ -33,8 +33,8 @@ with no jump in position or speed.
 
 ## Quick start
 
-1. Download `loop_noise-<version>.zip` from [Releases](https://github.com/Alex-D-Green/LoopNoise/releases) and
-   drag it into Blender (or **Edit ▸ Preferences ▸ Get Extensions ▸ ⌄ ▸ Install from Disk…**).
+1. In Blender, open **Edit ▸ Preferences ▸ Get Extensions**, search for *Loop Noise* and click **Install**.
+   It's also on Blendkit and GitHub; see [Installation](#installation).
 2. Right-click any animatable value — for example a bone's **Rotation** — and choose **Add Loop Noise**.
 3. Set **Scale**, **Strength** and the loop's **Start** and **End** frames, then click **Add**. Press play.
 
@@ -183,12 +183,18 @@ the Noise modifier with the same settings.
 
 ## Installation
 
-Requires **Blender 4.5 LTS** or newer.
+Requires **Blender 4.5 LTS** or newer. Loop Noise is free on all of these:
 
-1. Download the latest `loop_noise-<version>.zip` from [Releases](https://github.com/Alex-D-Green/LoopNoise/releases).
-2. Drag the .zip into Blender, or open **Edit ▸ Preferences ▸ Get Extensions**, click **⌄** at the top right and
-   choose **Install from Disk…**.
-3. Make sure **Loop Noise** is enabled in **Edit ▸ Preferences ▸ Add-ons**.
+- **[Blender Extensions](https://extensions.blender.org/add-ons/loop-noise/)** (recommended): in Blender, open
+  **Edit ▸ Preferences ▸ Get Extensions**, search for *Loop Noise* and click **Install**. New versions then show up
+  in Blender's own update check. This needs **Allow Online Access** in **Preferences ▸ System**.
+- **[Blendkit](https://www.blendkit.com/asset-gallery-detail/f944f349-23d4-41fd-9222-24e46e2735c5/)**: install it
+  through the Blendkit add-on, or from its page.
+- **[GitHub Releases](https://github.com/Alex-D-Green/LoopNoise/releases)**: download `loop_noise-<version>.zip` and
+  drag it into Blender, or open **Edit ▸ Preferences ▸ Get Extensions**, click **⌄** at the top right and choose
+  **Install from Disk…**.
+
+Make sure **Loop Noise** is enabled in **Edit ▸ Preferences ▸ Add-ons**.
 
 ## Development
 
